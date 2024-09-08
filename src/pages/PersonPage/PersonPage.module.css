@@ -1,0 +1,32 @@
+.person_item {
+  margin: 45px auto;
+}
+
+.person_container {
+  display: flex;
+  flex-wrap: wrap;
+   border-left: 5px solid var(--color-violet);
+  border-radius: var(--border-radius-small);
+  padding: var(--spacing-medium);
+}
+
+.person_name {
+  font-size: var(--font-size-subheader);
+  font-weight: var(--font-bold);
+  color: var(--color-white);
+  background-color: var(--color-violet);
+  border-radius: var(--border-radius-small) var(--border-radius-small)
+    var(--border-radius-small) 0;
+  padding: var(--spacing-small);
+}
+
+@media screen and (max-width: 768px) {
+  .list_container{
+  display: flex;
+}
+
+  .person_container {
+    display: block;
+    margin: 0 auto;
+  }
+}

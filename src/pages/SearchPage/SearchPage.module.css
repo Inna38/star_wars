@@ -1,0 +1,33 @@
+.input_container {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+
+.input {
+  min-width: 300px;
+  font-size: var(--font-size-main);
+  border: 2px solid #dfe2df;
+  border-radius: var(--border-radius-medium);
+  padding: var(--spacing-small);
+  padding-right: calc(35px + 10px);
+  outline: none;
+}
+
+.input:focus {
+  border: 2px solid #2d2579;
+}
+
+.input_img {
+  position: absolute;
+  top: 8px;
+  right: var(--spacing-small);
+
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.clear_disabled {
+  opacity: 0.2;
+}

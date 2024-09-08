@@ -1,0 +1,21 @@
+.personFilms_container {
+  padding: var(--spacing-medium) 0;
+}
+
+.list_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  color: var(--color-white);
+}
+
+.item_episode {
+  padding: 5px;
+  border-radius: var(--border-radius-small);
+  background-color: var(--color-red);
+}
+
+.item_title {
+  text-shadow: var(--text-shadow-blue);
+  margin-left: var(--spacing-small);
+}
